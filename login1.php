@@ -6,7 +6,7 @@
         <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
         <script type='text/javascript' src='menu_jquery.js'></script>
         <meta charset=utf-8 />
-        <script type="text/javascript" src="./ajax.js"></script>
+        <script type="text/javascript" src="http://areen.dc7.us/ajax.js"></script>
 
         <style  type="text/css">
             .art-image
