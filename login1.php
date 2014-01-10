@@ -75,8 +75,8 @@
             while ($row = mysql_fetch_array($result)) {
                 ///// retreiving image from mysql :
 
-                echo" <img class='art-image' src='capture.jpg'>";
-                echo"  <img  class='art-img' src='imag.php?SN1=" . $row["student_id"] . "'  />";
+                echo" <img class='art-image' src='http://areen.dc7.us/capture.jpg'>";
+                echo"  <img  class='art-img' src='http://areen.dc7.us/imag.php?SN1=" . $row["student_id"] . "'  />";
 
                 echo" </br>";
                 echo "<div   class='zzzz'>Student Name: " . $row["student_name"] . "</br></div>";
