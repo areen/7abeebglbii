@@ -59,9 +59,9 @@
     <body>
 
 
-        <form id="myform2" action="login2.php" method="post">
+        <form id="myform2" action="http://areen.dc7.us/login2.php" method="post">
             <?php
-            include_once('confg.php');
+            include_once('http://areen.dc7.us/confg.php');
 
             $ID_i = mysql_real_escape_string($_POST["ID"]);
             $Password_i = mysql_real_escape_string($_POST["Password"]);

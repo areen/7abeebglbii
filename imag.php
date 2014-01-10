@@ -1,5 +1,5 @@
 <?php
-include_once('confg.php');
+include_once('http://areen.dc7.us/confg.php');
 
 $sql2 = "SELECT  DISTINCT student_img  as alias FROM stdinfo   WHERE student_id='" . $_GET['SN1']."'  ";
 
