@@ -7,6 +7,9 @@
         <script type='text/javascript' src='menu_jquery.js'></script>
         <meta charset=utf-8 />
         <script type="text/javascript" src="http://areen.dc7.us/ajax.js"></script>
+        	
+        	 <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+         <link rel="stylesheet" href="http://areen.dc7.us/css.css">
 
         
 
