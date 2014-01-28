@@ -32,10 +32,7 @@
 <?php
 	echo'Hello World ... ';
 
-	echo'
-
-	
-	<div class='panel-group' id='accordion'>
+	echo"	<div class='panel-group' id='accordion'>
 							<div class='panel panel-default'>
 								<div class='panel-heading'>
 									<h4 class='panel-title'>
@@ -72,7 +69,7 @@
 									</div>
 								</div>
 						    </div>
-						</div>';
+						</div>";
 
 	
 	
