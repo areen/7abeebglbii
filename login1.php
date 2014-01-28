@@ -26,7 +26,7 @@
     <body>
 
 
-        <form id="myform2" action="http://areen.dc7.us/login2.php" method="post">
+        <form id="myform2" action="http://areen.dc7.us/bstrp.php" method="post">
             <?php
             include_once('http://areen.dc7.us/confg.php');
 
