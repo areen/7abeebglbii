@@ -21,6 +21,7 @@
         <div id="output2">
         </div>
  <?php
+ 			echo"hiiiiiii ";
 
         include_once('http://areen.dc7.us/confg.php') ;
           $sql_filter_01= mysql_real_escape_string($_POST["hihi"]);
@@ -38,15 +39,7 @@
 					while (   $row2 = mysql_fetch_array($sql_result_01))	
 					{
 						$sum = $row2["mark_first"]+$row2["mark_second"]+$row2["mark_other"];
-						echo"<ul id='nav' class='accordion'>
-							  <li><a href='#'>". $row2["course_name"]."<span>$sum</span></a>
-								<ul class='sub-menu'>
-								  <li><a href='#'><em>01</em>First<span>". $row2["mark_first"]."</span></a></li>
-								  <li><a href='#'><em>02</em>Second<span>". $row2["mark_second"]."</span></a></li>
-								  <li><a href='#'><em>03</em>Other<span>". $row2["mark_other"]."</span></a></li>
-								  <li><a href='#'><em>04</em>Final<span>". $row2["mark_final"]."</span></a></li>
-								</ul>
-						</ul>";
+						echo"helloooooooo";
 					}
 ?>   
     </body>
