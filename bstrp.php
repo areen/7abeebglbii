@@ -30,7 +30,49 @@
 
 
 <?php
-	echo"Hello World ... ";
+	echo'Hello World ... ';
+
+	echo'
+
+	
+	<div class='panel-group' id='accordion'>
+							<div class='panel panel-default'>
+								<div class='panel-heading'>
+									<h4 class='panel-title'>
+						                <a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#panel1'>Panel 1</a>
+									</h4>
+								</div>
+								<div id='panel1' class='panel-collapse collapse'>
+									<div class='panel-body'>
+						                Contents panel 1
+									</div>
+								</div>
+						    </div>
+							<div class='panel panel-default'>
+								<div class='panel-heading'>
+									<h4 class='panel-title'>
+						                <a class='accordion-toggle'data-toggle='collapse' data-parent='#accordion' href='#panel2'>Panel 2</a>
+									</h4>
+								</div>
+								<div id='panel2'class='panel-collapse collapse'>
+									<div class='panel-body'>
+						                Contents panel 2
+									</div>
+								</div>
+						    </div>
+							<div class='panel panel-default'>
+								<div class='panel-heading'>
+									<h4 class='panel-title'>
+						                <a class='accordion-toggle' data-toggle='collapse' data-parent='#accordion' href='#panel3'>Panel 3</a>
+									</h4>
+								</div>
+								<div id='panel3' class='panel-collapse collapse'>
+									<div class='panel-body'>
+						                Contents panel 3
+									</div>
+								</div>
+						    </div>
+						</div>';
 
 	
 	
