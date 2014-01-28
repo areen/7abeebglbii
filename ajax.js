@@ -22,16 +22,16 @@ $(document).ready(function(){
   
             $(document).ready(function(){
     
-      $("select#myList").change(function (){ 
+      $("button#other").click(function (){ 
    
   
-          if($("#myList").val() === "" )
-             $("div#one").html("select semester");
+          if($("#mylist").val() === "" )
+             $("div#output2").html("please enter boh Id AND Password");
          else
              $.post($("#myform2").attr("action"),
               $("#myform2 :input").serializeArray(),
             function(data){
-                $("div#one").html(data);
+                $("div#output2").html(data);
          
             });
             $("#myform2").submit(function(){

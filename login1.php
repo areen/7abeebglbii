@@ -61,7 +61,9 @@
                 <option>summer_2013</option>  
             </select>
             
-            
+       <button id="other" type="submit" >Submit</button>
+       	   <div id="output2">
+        </div>
          
         </form>
       
