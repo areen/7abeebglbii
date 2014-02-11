@@ -26,7 +26,7 @@
     <body>
 
 
-        <form id="myform2" action="http://areen.dc7.us/bstrp.php" method="post">
+        <form id="myform2" action="http://areen.dc7.us/New%20folder/lol1.php" method="post">
             <?php
             include_once('http://areen.dc7.us/confg.php');
 
@@ -56,7 +56,7 @@
             ?>
             <select id="myList" class="styled-select" name="hihi" >
                  <option>Select..</option>
-                <option>first_2013</option>
+                <option>First_ 2013</option>
                 <option>second_2013</option>  
                 <option>summer_2013</option>  
             </select>
